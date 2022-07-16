@@ -7,7 +7,7 @@ const computerPlay = () => {
 //let playerSelection = prompt();
 
 const playRound = () => {
-  let player = prompt().toLowerCase();
+  let player = prompt("Enter rock, paper or scissors").toLowerCase();
   let computer = computerPlay();
 
   if (player == "rock" && computer == "paper") {
